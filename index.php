@@ -1,10 +1,6 @@
 <?php
-echo date('H-i');
-if (date('H') > 19 && date('H') < 23)
-{
-echo "string";
 
-}
+
 $eray[0]="nane";
 
 $file = fopen("data.txt",'r');
