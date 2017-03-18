@@ -6,6 +6,7 @@
 </head>
 <body>
 
+<img src="logo.png" alt="Eksi-stats">
 
   <div id="general">
 
@@ -53,7 +54,7 @@ for ($i=1500; $i >0 ; $i--) {
   # code...
 if (isset($reve[$i])==1) {
 
- echo "<div id='gen'>"."<a href='".$royal[$i]."'  </a>".$reve[$i]."</div>"." "."<div id='say'>".$i."</div>";echo "<br>";
+ echo "<a href='".$royal[$i]."'>"."<div id='gen'>".$reve[$i]."</div>"."'</a>"." "."<div id='say'>".$i."</div>";echo "<br>";
 }
 }
 
