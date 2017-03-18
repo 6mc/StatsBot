@@ -1,0 +1,67 @@
+#gen{
+  margin-top: .1%;
+text-align: left;
+color: #fff;
+  height: 8%;
+  background-color: #fff;
+width: 20%;
+}
+ a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#gen {
+  border: solid #1cd932 1px;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 10px;
+  font-family: Arial;
+color: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#gen:hover {
+  border: solid #fff 2px;
+  color: #fff;
+  background: #14fa23;
+  background-image: -webkit-linear-gradient(top, #14fa23, #3ddb25);
+  background-image: -moz-linear-gradient(top, #14fa23, #3ddb25);
+  background-image: -ms-linear-gradient(top, #14fa23, #3ddb25);
+  background-image: -o-linear-gradient(top, #14fa23, #3ddb25);
+  background-image: linear-gradient(to bottom, #14fa23, #3ddb25);
+  text-decoration: none;
+}
+
+ body {
+  text-align: center;
+
+height: 100%;
+     }
+
+#gen{
+text-align: left;
+
+  height: 8%;
+  background-color: #fff;
+width: 20%;
+}
+#item{
+
+
+
+}
+#gen, #say
+{
+    display:inline-block;;
+}

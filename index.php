@@ -1,3 +1,16 @@
+<html>
+<link href="normalize.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<head>
+<title>EkşiBot</title>
+</head>
+<body>
+
+
+  <div id="general">
+
+
+
 <?php
 
 
@@ -25,10 +38,13 @@ $elma = explode(",", $nuevo);
 
 //echo $elma[4];
 $reve[0]="";
+$t=0;
 for ($i=0; $i <Count($elma)-1 ; $i++) {
   # code...
   $reve[$elma[$i+1]]=$elma[$i];
+  $royal[$elma[$i+1]]= $elma[$i+2];
   $i++;
+    $i++;
 }
 
 //echo $reve[25];
@@ -37,8 +53,11 @@ for ($i=1500; $i >0 ; $i--) {
   # code...
 if (isset($reve[$i])==1) {
 
- echo $reve[$i]." ".$i;echo "<br>";
+ echo "<div id='gen'>"."<a href='".$royal[$i]."'  </a>".$reve[$i]."</div>"." "."<div id='say'>".$i."</div>";echo "<br>";
 }
 }
 
 ?>
+  </div>
+</body>
+</html>

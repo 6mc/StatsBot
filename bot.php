@@ -27,16 +27,22 @@ function curl($url){
 
 $number =	explode('?a=popular">',$title[0]);
 
+$links= explode('topic-list partial',$number[0]);
 
+$link =explode('href="',$links[1]);
 
 echo $titleson[0];
 echo "<br>";
 echo $number[1];
 
+echo $link[1];
+
+
+$realmente="https://www.eksisozluk.com".$link[1];
 
 
 $dosya = fopen("data.txt","a");
-$add =$number[1]. ',' .$titleson[0];
+$add =$number[1]. ',' .$titleson[0].','.$realmente;
 fwrite($dosya,  $add);
 fwrite($dosya,"\n");
 
