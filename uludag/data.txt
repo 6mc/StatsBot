@@ -1,0 +1,2 @@
+yazar nicklerinden öğrenim durumu tahmini yapmak,29,
+kitap okuma pozisyonları,9,http://www.uludagsozluk.com/  class=" " i="in2257583"
